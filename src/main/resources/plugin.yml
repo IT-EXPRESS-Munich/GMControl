@@ -2,4 +2,10 @@ name: GMControl
 version: '${project.version}'
 main: tech.itexpress.gamemode.Gamemode
 api-version: 1.19
+author: IT-EXPRESS
 load: STARTUP
+commands:
+  gm:
+    description: Verändert den Spielmodus eines Spielers
+    usage: /gm <1-4>
+    aliases: [gamemode]
