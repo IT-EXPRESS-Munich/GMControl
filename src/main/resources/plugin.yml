@@ -1,0 +1,5 @@
+name: GMControl
+version: '${project.version}'
+main: tech.itexpress.gamemode.Gamemode
+api-version: 1.19
+load: STARTUP
